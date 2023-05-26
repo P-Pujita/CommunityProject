@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:textSize="24sp"-->
+<!--        android:layout_centerInParent="true"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/incr_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="INC"-->
+<!--        android:layout_below="@id/text"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginRight="50dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/decr_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="DECR"-->
+<!--        android:layout_below="@id/text"-->
+<!--        android:layout_marginRight="50dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        />-->
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="USERNAME"
+       android:layout_toLeftOf="@+id/uname"
+       android:layout_centerVertical="true"
+       android:fontFamily="sans-serif-medium"
+       android:layout_marginRight="20dp"
+       android:textSize="12sp"/>
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="9"/>
+    <TextView
+        android:layout_toLeftOf="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uname"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="PASSWORD"
+        android:textSize="12sp"/>
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/uname"
+        android:ems="9" />
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="150dp"/>
+</RelativeLayout>
